@@ -68,6 +68,8 @@ html {
 
 .header__head-logo {
     text-decoration: none;
+    
+    padding: 0 100px 0 0;
 }
 
 .header__head-img {
