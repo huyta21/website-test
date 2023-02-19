@@ -59,12 +59,13 @@ html {
     background: #EFF3FF;
 
     position: fixed;
+    z-index: 1;
+
 } 
 
 .header__head {
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
 }
 
 .header__head-logo {
