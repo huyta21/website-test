@@ -64,6 +64,7 @@ html {
 .header__head {
     display: flex;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 .header__head-logo {
