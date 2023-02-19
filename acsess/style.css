@@ -112,6 +112,9 @@ html {
     display: flex;
 
 }
+.header__head-auth-mobile {
+    display: none;
+}
 
 .head-auth--login {
     font-family: 'Mulish';
