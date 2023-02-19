@@ -86,11 +86,6 @@
 
     .header__head-auth {
         display: none;
-        position: absolute;
-        top: 195px;
-        height: auto;
-        width: 100%;
-        background-color: #EFF3FF;
 
 
     }
@@ -106,9 +101,12 @@
         align-items: center;
         padding: 4px 10px;
     }
+     .header__head-auth-mobile {
+        display: block;
+        width: 100%;
+    }
 
-    .header__madol:hover ~ .header__head-list,
-    .header__madol:hover ~ .header__head-auth {
+    .header__madol:hover ~ .header__head-list {
         display: flex;
         flex-direction: column;
 
