@@ -399,6 +399,7 @@ html {
 .nav__item--transport {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .nav__item-cube--icon {
