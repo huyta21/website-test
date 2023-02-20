@@ -1,0 +1,163 @@
+/* Pc */
+@media (min-width:1024px){
+    .header__madol {
+        display: none;
+    }
+}
+
+
+/* Ipad */
+
+@media (min-width:740px) and (max-width:1023px){
+    .item--input{
+        width: auto;
+        font-size: 13px;
+
+    }
+
+    .item--input-btn {
+        width: 134.5px;
+    }
+
+    .header__madol {
+        display: none;
+    }
+
+    .nav__item-heading {
+        font-size: 24px;
+    }
+    .nav__item-text,
+    .item--text {
+        font-size: 16px;
+    }
+
+    .container {
+        gap: 0 20px;
+    }
+
+    .container__nav--img {
+        width: 100%;
+    }
+
+
+}
+
+/* Mobile */
+
+
+@media (max-width:739px) {
+
+
+    .item--input,
+    .item--input-btn {
+    
+        width: auto;
+        height: auto;
+    }
+
+    .container__navbar-head,
+    .container__navbar-text {
+        height: auto;
+    }
+
+
+    .header__head {
+        position: relative;
+    }
+
+    .header__head-list {
+        display: none;
+        position: absolute;
+        top: 58px;
+        height: auto;
+        width: 100%;
+        background-color: #EFF3FF;
+
+    }
+
+    .header__head-auth {
+        display: none;
+
+
+
+    }
+
+    .head-auth--login {
+        padding: 14px 0 ;
+        display: block;
+        margin: 0;
+    }
+
+    .header__madol {
+        display: flex;
+        align-items: center;
+        padding: 4px 10px;
+    }
+    .header__head-auth-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .header__madol:hover ~ .header__head-list {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .head-menu--item {
+        width: 100%;
+    }
+
+    .header__head-link {
+        padding: 14px 0;
+    }
+
+    .header__madol-icon {
+        font-size: 26px;
+        color: var(--blue-color);
+    }
+
+    .slider__conten {
+        width: 100%;
+    }
+
+    .navbar__tools {
+        display: block;
+        margin-bottom: 60px;
+    }
+    .navbar__tools-item {
+        margin-bottom: 60px;
+
+    }
+
+    .navbar__item {
+        display: block;
+    }
+
+    .navbar__item-conten {
+        margin: 0;
+    }
+
+    .navbar__item-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+    
