@@ -9,17 +9,14 @@
 /* Ipad */
 
 @media (min-width:740px) and (max-width:1023px){
-    .tools__item-head,
-    .tools__item-text,
-    .tools__discover,
-    .nav__item-heading,
-    .nav__item-text,
-    .item--text,
-    .nav__item-option,
-    .container__navbar-head,
-    .container__navbar-text{
+    .item--input{
         width: auto;
-        height: auto;
+        font-size: 13px;
+
+    }
+
+    .item--input-btn {
+        width: 134.5px;
     }
 
     .header__madol {
@@ -49,19 +46,13 @@
 
 
 @media (max-width:739px) {
-    .tools__item-head,
-    .tools__item-text,
-    .tools__discover,
-    .nav__item-heading,
-    .nav__item-text,
-    .item--text,
-    .nav__item-option,
-    .navbar__header-grow,
-    .navbar__header-we,
-    .slider__conten-head,
-    .slider__conten-text{
-        height: auto;
+
+
+    .item--input,
+    .item--input-btn {
+    
         width: auto;
+        height: auto;
     }
 
     .container__navbar-head,
@@ -88,6 +79,7 @@
         display: none;
 
 
+
     }
 
     .head-auth--login {
@@ -101,7 +93,7 @@
         align-items: center;
         padding: 4px 10px;
     }
-     .header__head-auth-mobile {
+    .header__head-auth-mobile {
         display: block;
         width: 100%;
     }
@@ -151,8 +143,13 @@
         margin-bottom: 20px;
     }
 
+
     .container {
-        display: block;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .container__nav {
